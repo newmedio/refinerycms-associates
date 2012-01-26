@@ -6,6 +6,7 @@ class CreateAssociates < ActiveRecord::Migration
       t.text :bio
       t.text :contact_info
       t.string :listing_link
+      t.string :rets_agent_id
       t.string :email_address
       t.integer :position
 
