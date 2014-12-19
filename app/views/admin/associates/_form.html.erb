@@ -39,6 +39,11 @@
     <%= f.text_field :email_address  -%>
   </div>
   
+  <div class='field'>
+    <%= f.label :rets_agent_id -%>
+    <%= f.text_field :rets_agent_id  -%>
+  </div>
+  
   <%= render :partial => "/shared/admin/form_actions",
               :locals => {
                 :f => f,
